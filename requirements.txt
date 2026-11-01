@@ -1,0 +1,7 @@
+anthropic>=0.40.0,<1
+fastapi>=0.115.0,<1
+python-dotenv>=1.0.0,<2
+uvicorn[standard]>=0.30.0,<1
+
+# Install torch and transformers when using MODEL_PROVIDER=local.
+# transformers>=4.45.0,<5
